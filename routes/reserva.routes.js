@@ -1,6 +1,7 @@
 // TODO: Importar el modelo y controladores de reservas, luego vincular rutas con controladores
-
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
+const reservaController = require('../controllers/reserva.controllers');
 
 
 // ==========================================

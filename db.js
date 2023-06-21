@@ -14,7 +14,7 @@ const sequelize = new Sequelize(
 
     //Se exportan las conexiones
     module.exports = {
-        sequelize,
+        sequelize
         DataTypes
     }
 

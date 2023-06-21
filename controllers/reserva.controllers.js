@@ -1,4 +1,5 @@
 const ctrlReservas = {};
+const Reserva = require('../models/Reserva.js');
 
 // ==========================================
 //         Rutas para CRUD de reservas
